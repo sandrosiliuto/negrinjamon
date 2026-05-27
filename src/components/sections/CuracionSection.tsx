@@ -28,7 +28,16 @@ const steps = [
 
 export default function CuracionSection() {
   return (
-    <section id="curacion" className="relative py-32 px-6">
+    <section
+      id="curacion"
+      className="relative py-32 px-6 section-overlay"
+      style={{
+        backgroundImage: 'url(/images/img5.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      }}
+    >
       <SectionHeader
         kicker="EL ARTE DEL TIEMPO"
         title={
@@ -42,7 +51,6 @@ export default function CuracionSection() {
 
       <div className="max-w-5xl mx-auto">
         <div className="relative">
-          {/* Línea vertical conectora */}
           <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-negrin-wood via-negrin-warm to-negrin-wine hidden md:block" />
 
           <div className="space-y-12">
@@ -58,18 +66,18 @@ export default function CuracionSection() {
                 }`}
               >
                 <div className={`flex-1 ${i % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
-                  <div className="text-negrin-warm text-sm tracking-[0.3em] mb-2">
+                  <div className="text-negrin-warm text-sm tracking-[0.3em] mb-2 text-legible-light">
                     PASO {step.n}
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-bold font-display mb-3">
+                  <h3 className="text-2xl md:text-3xl font-bold font-display mb-3 text-legible">
                     {step.title}
                   </h3>
-                  <p className="text-negrin-sand/70 leading-relaxed">
+                  <p className="text-negrin-cream/80 leading-relaxed text-legible-light">
                     {step.desc}
                   </p>
                 </div>
 
-                <div className="hidden md:flex w-12 h-12 rounded-full bg-negrin-earth border border-negrin-gold/40 items-center justify-center z-10 shrink-0">
+                <div className="hidden md:flex w-12 h-12 rounded-full bg-negrin-earth/90 border border-negrin-gold/40 items-center justify-center z-10 shrink-0">
                   <span className="text-negrin-warm font-bold text-sm">{step.n}</span>
                 </div>
 

@@ -16,7 +16,7 @@ export default function SectionHeader({ kicker, title, subtitle }: SectionHeader
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-100px' }}
         transition={{ duration: 0.6 }}
-        className="text-xs tracking-[0.4em] text-negrin-warm/80 mb-4"
+        className="text-xs tracking-[0.4em] text-negrin-warm mb-4 text-legible-light"
       >
         {kicker}
       </motion.div>
@@ -25,7 +25,7 @@ export default function SectionHeader({ kicker, title, subtitle }: SectionHeader
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-100px' }}
         transition={{ duration: 0.7, delay: 0.1 }}
-        className="text-4xl md:text-6xl font-bold tracking-tight font-display"
+        className="text-4xl md:text-6xl font-bold tracking-tight font-display text-legible"
       >
         {title}
       </motion.h2>
@@ -35,7 +35,7 @@ export default function SectionHeader({ kicker, title, subtitle }: SectionHeader
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="mt-6 text-negrin-sand text-lg leading-relaxed"
+          className="mt-6 text-negrin-cream/90 text-lg leading-relaxed text-legible-light"
         >
           {subtitle}
         </motion.p>

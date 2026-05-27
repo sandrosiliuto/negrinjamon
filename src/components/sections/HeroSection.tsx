@@ -29,7 +29,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight leading-[0.95] font-display"
+          className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight leading-[0.95] font-display text-legible"
         >
           Negrín
           <br />
@@ -40,10 +40,9 @@ export default function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.8 }}
-          className="mt-8 text-negrin-sand max-w-xl mx-auto text-base md:text-lg"
+          className="mt-8 text-negrin-cream/90 max-w-xl mx-auto text-base md:text-lg text-legible"
         >
-          Tradición que se siente, excelencia que se ve.
-          Más de 70 años de pasión por el jamón ibérico de bellota.
+          Jamón ibérico de bellota, curado en la Sierra de Huelva.
         </motion.p>
 
         <motion.div

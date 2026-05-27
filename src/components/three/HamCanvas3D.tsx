@@ -83,7 +83,7 @@ export default function HamCanvas3D() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(ellipse at center, transparent 0%, rgba(15,10,6,0.5) 60%, #0F0A06 100%)',
+            'radial-gradient(ellipse at 30% 50%, rgba(15,10,6,0.3) 0%, transparent 50%), radial-gradient(ellipse at center, transparent 0%, rgba(15,10,6,0.6) 55%, #0F0A06 100%)',
         }}
       />
     </div>

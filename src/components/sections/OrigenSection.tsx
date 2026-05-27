@@ -20,7 +20,16 @@ export default function OrigenSection() {
   ];
 
   return (
-    <section id="origen" className="relative py-32 px-6">
+    <section
+      id="origen"
+      className="relative py-32 px-6 section-overlay"
+      style={{
+        backgroundImage: 'url(/images/img1.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      }}
+    >
       <SectionHeader
         kicker="DESDE 1954"
         title={
@@ -41,12 +50,12 @@ export default function OrigenSection() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-80px' }}
-            className="text-center p-8 rounded-2xl bg-white/[0.02] border border-white/10 backdrop-blur-sm"
+            className="text-center p-8 rounded-2xl card-legible"
           >
-            <div className="text-5xl md:text-6xl font-bold gradient-text font-display">
+            <div className="text-5xl md:text-6xl font-bold gradient-text font-display text-legible">
               {s.value}
             </div>
-            <div className="mt-3 text-xs tracking-[0.3em] text-negrin-sand">
+            <div className="mt-3 text-xs tracking-[0.3em] text-negrin-cream/80 text-legible-light">
               {s.label}
             </div>
           </motion.div>
@@ -59,7 +68,7 @@ export default function OrigenSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-60px' }}
           transition={{ duration: 0.8 }}
-          className="text-negrin-sand/80 text-lg leading-relaxed"
+          className="text-negrin-cream/90 text-lg leading-relaxed text-legible-light"
         >
           Cada pieza cuenta una historia que comienza en los pastos de la Dehesa,
           donde nuestros cerdos ibéricos se alimentan de bellotas durante la montanera.
