@@ -31,7 +31,9 @@ export default function Navbar() {
           {[
             ['Inicio', '#inicio'],
             ['Origen', '#origen'],
-            ['Curación', '#curacion'],
+            ['Servicios', '#curacion'],
+            ['En acción', '#en-accion'],
+            ['Precios', '#precios'],
             ['Calidad', '#calidad'],
             ['Contacto', '#contacto'],
           ].map(([label, href]) => (

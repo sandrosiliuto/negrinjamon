@@ -14,7 +14,7 @@ const fadeUp = {
 
 export default function OrigenSection() {
   const stats = [
-    { value: '+15', label: 'Años de experiencia' },
+    { value: '3', label: 'Años de experiencia en el sector' },
     { value: '+500', label: 'Eventos realizados' },
     { value: '100%', label: 'Corte a cuchillo tradicional' },
   ];
@@ -75,6 +75,16 @@ export default function OrigenSection() {
           Desde la selección del punto de corte hasta la presentación final en el plato,
           cada detalle está cuidado para que tus invitados vivan una experiencia inolvidable.
         </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-40px' }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-8 inline-flex items-center gap-2 px-6 py-2 rounded-full border border-negrin-gold/30 text-negrin-warm text-sm tracking-widest"
+        >
+          <span style={{ display: 'inline-block', width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#C9A87C' }} />
+          Cortador en Royal Hideaway Corales Resort
+        </motion.div>
       </div>
     </section>
   );

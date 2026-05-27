@@ -12,6 +12,8 @@ import WhatsAppButton from '@/components/ui/WhatsAppButton';
 import HeroSection from '@/components/sections/HeroSection';
 import OrigenSection from '@/components/sections/OrigenSection';
 import CuracionSection from '@/components/sections/CuracionSection';
+import EnAccionSection from '@/components/sections/EnAccionSection';
+import PreciosSection from '@/components/sections/PreciosSection';
 import CalidadSection from '@/components/sections/CalidadSection';
 import FooterSection from '@/components/sections/FooterSection';
 
@@ -60,6 +62,8 @@ export default function Home() {
         <HeroSection />
         <OrigenSection />
         <CuracionSection />
+        <EnAccionSection />
+        <PreciosSection />
         <CalidadSection />
         <FooterSection />
       </main>
