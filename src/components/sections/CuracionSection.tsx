@@ -6,23 +6,23 @@ import SectionHeader from '@/components/ui/SectionHeader';
 const steps = [
   {
     n: '01',
-    title: 'Selección',
-    desc: 'Elegimos únicamente cerdos ibéricos puros criados en libertad en la Dehesa.',
+    title: 'Fiestas y Celebraciones',
+    desc: 'Amenizo cumpleaños, fiestas privadas y reuniones familiares con corte en vivo.',
   },
   {
     n: '02',
-    title: 'Salazón',
-    desc: 'Curado tradicional con sal marina natural durante el tiempo justo.',
+    title: 'Bautizos y Comuniones',
+    desc: 'Un detalle elegante que sorprende a tus invitados en días tan señalados.',
   },
   {
     n: '03',
-    title: 'Secado',
-    desc: 'Descanso en secaderos naturales donde el clima de la Sierra hace su magia.',
+    title: 'Eventos Corporativos',
+    desc: 'Cócteles de empresa, ferias y presentaciones con un plus de distinción.',
   },
   {
     n: '04',
-    title: 'Bodega',
-    desc: 'Afinamiento lento en nuestras bodegas hasta alcanzar la excelencia.',
+    title: 'Catas y Showcookings',
+    desc: 'Experiencias guiadas para aprender a distinguir matices y disfrutar del ibérico como un experto.',
   },
 ];
 
@@ -39,14 +39,14 @@ export default function CuracionSection() {
       }}
     >
       <SectionHeader
-        kicker="EL ARTE DEL TIEMPO"
+        kicker="SERVICIOS PERSONALIZADOS"
         title={
           <>
-            Curación{" "}
-            <span className="gradient-text">natural</span>
+            Servicios{" "}
+            <span className="gradient-text">personalizados</span>
           </>
         }
-        subtitle="Un proceso que no se puede apresurar. Cada etapa requiere paciencia, experiencia y respeto por la tradición."
+        subtitle="Me desplazo a tu evento con todo lo necesario para convertir el jamón en el centro de atención."
       />
 
       <div className="max-w-5xl mx-auto">
@@ -67,7 +67,7 @@ export default function CuracionSection() {
               >
                 <div className={`flex-1 ${i % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
                   <div className="text-negrin-warm text-sm tracking-[0.3em] mb-2 text-legible-light">
-                    PASO {step.n}
+                    SERVICIO {step.n}
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold font-display mb-3 text-legible">
                     {step.title}

@@ -8,6 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Navbar from '@/components/ui/Navbar';
 import ScrollProgress from '@/components/ui/ScrollProgress';
 import CustomCursor from '@/components/ui/CustomCursor';
+import WhatsAppButton from '@/components/ui/WhatsAppButton';
 import HeroSection from '@/components/sections/HeroSection';
 import OrigenSection from '@/components/sections/OrigenSection';
 import CuracionSection from '@/components/sections/CuracionSection';
@@ -51,6 +52,7 @@ export default function Home() {
     <>
       <HamCanvas3D />
       <CustomCursor />
+      <WhatsAppButton />
       <ScrollProgress />
       <Navbar />
 

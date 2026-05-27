@@ -75,11 +75,10 @@ export default function CalidadSection() {
           className="p-8 rounded-2xl card-legible border border-negrin-gold/20"
         >
           <blockquote className="text-2xl md:text-3xl font-light leading-snug font-display text-legible">
-            “El jamón es nuestro legado. Cada pieza que sale de nuestra bodega
-            lleva consigo el sabor de tres generaciones de dedicación.”
+            “El corte a cuchillo es mi oficio y mi pasión. Con cada loncha, busco la textura, el brillo y el punto exacto para que el jamón exprese todo su potencial en boca.”
           </blockquote>
           <div className="mt-6 text-negrin-warm text-sm tracking-widest text-legible-light">
-            — FAMILIA NEGRÍN
+            — CORTADOR PROFESIONAL
           </div>
         </motion.div>
       </div>

@@ -14,9 +14,9 @@ const fadeUp = {
 
 export default function OrigenSection() {
   const stats = [
-    { value: '+70', label: 'Años de tradición' },
-    { value: '3', label: 'Generaciones' },
-    { value: '100%', label: 'Ibérico de bellota' },
+    { value: '+15', label: 'Años de experiencia' },
+    { value: '+500', label: 'Eventos realizados' },
+    { value: '100%', label: 'Corte a cuchillo tradicional' },
   ];
 
   return (
@@ -31,14 +31,14 @@ export default function OrigenSection() {
       }}
     >
       <SectionHeader
-        kicker="DESDE 1954"
+        kicker="CORTADOR PROFESIONAL"
         title={
           <>
-            Raíces en la{" "}
-            <span className="gradient-text">Sierra de Huelva</span>
+            Compromiso con la{" "}
+            <span className="gradient-text">excelencia</span>
           </>
         }
-        subtitle="Tres generaciones dedicadas al arte del jamón ibérico. En el corazón de la Dehesa, donde las encinas dan sombra y sabor a nuestras piezas."
+        subtitle="Dedicación exclusiva al corte a cuchillo. Velocidad, precisión y conocimiento del producto para realzar la experiencia gastronómica en cualquier evento."
       />
 
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -70,10 +70,10 @@ export default function OrigenSection() {
           transition={{ duration: 0.8 }}
           className="text-negrin-cream/90 text-lg leading-relaxed text-legible-light"
         >
-          Cada pieza cuenta una historia que comienza en los pastos de la Dehesa,
-          donde nuestros cerdos ibéricos se alimentan de bellotas durante la montanera.
-          El resultado es un jamón de sabor incomparable, con vetas de grasa que se derriten
-          en el paladar y un aroma que evoca la tradición más pura.
+          Cada evento es una oportunidad para demostrar que el corte a cuchillo
+          es mucho más que una técnica: es un espectáculo que despierta los sentidos.
+          Desde la selección del punto de corte hasta la presentación final en el plato,
+          cada detalle está cuidado para que tus invitados vivan una experiencia inolvidable.
         </motion.p>
       </div>
     </section>
